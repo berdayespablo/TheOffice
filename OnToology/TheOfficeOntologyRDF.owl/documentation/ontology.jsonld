@@ -1,0 +1,1413 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid9"
+    }, {
+      "@id" : "_:genid7"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid20"
+    }, {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid14"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid22"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#l"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "0"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#l"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid31"
+    }, {
+      "@id" : "_:genid29"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#s"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#l"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "0"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid42"
+    }, {
+      "@id" : "_:genid40"
+    }, {
+      "@id" : "_:genid36"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid44"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#s"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#s"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#l"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Grupo de Aula 1\nAutor 1 de la ontología: Pablo Berdayes Prieto\nAutor 2 de la ontología: Miguel Ángel Miravé Carreño"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the accounting work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the actors playing character on the show."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the administrative work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Amy_Ryan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Female"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Angela Martin"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the farmer work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the beet farm workplace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the character of the show."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the coordinating director work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the corporate workplace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Denman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "0"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "David Wallace"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Dwight Schrute"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Female"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Holly Flax"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Amy_Ryan"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the Human Resources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Female"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Jan Levinson"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Jim Halpert"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/John_Krasinski"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the level of character importance on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the relationship situation of the characters on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the characters who have had some relationship on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the main roles play on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the manager work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Michael Scott"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Instancia del personaje principal Michael Scott"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the Nashua branch office workplace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the occuaption of the characters."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the different branches office workplace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Female"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Pam Beesley"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs" : [ {
+    "@value" : "https://es.dbpedia.org/page/Rainn_Wilson"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender" : [ {
+    "@value" : "Male"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Roy Anderson"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Denman"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  }, {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the sales work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the Scranton branch office workplace."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the first season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the second season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the third season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the fourth season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the fifth season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the sixth season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the seventh season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the eighth season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the ninth season of the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the supporting roles on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the characters who have not had any relationship on the show."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Steve_Carell"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the warehouse work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class corresponding to the workplaces on the show"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates on which seasons the character appears. Domain: Character. Range: Season. Asymmetric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates the gender of the character. Domain: Character. Range: String."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates how amany relationships the character has had. Domain: Character. Range: Integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates the name of different classes. Domain: Character, Actor, Occupation, Workplace, Seasons. Range: String."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates with which other characters he or she has mantained a relationship in the show. Domain: Character. Range: Character. Symmetric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates how many workplaces the character has worked in. Domain: Character. Range: Integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates the actor that plays the chracter. Domain: Character. Range: Actor. Asymmetric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates how many different seasons the character appears in. Domain: Character. Range: String."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates the workplace of the character. Domain: Character. Range: Workplace. Asymmetric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Indicates the occupation of the character. Domain: Character. Range: Occupation. Asymmetric"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#l",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#s",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

@@ -1,0 +1,831 @@
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4> <http://www.w3.org/2000/01/rdf-schema#comment> "Grupo de Aula 1\nAutor 1 de la ontología: Pablo Berdayes Prieto\nAutor 2 de la ontología: Miguel Ángel Miravé Carreño" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates on which seasons the character appears. Domain: Character. Range: Season. Asymmetric." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates with which other characters he or she has mantained a relationship in the show. Domain: Character. Range: Character. Symmetric." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the actor that plays the chracter. Domain: Character. Range: Actor. Asymmetric." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the workplace of the character. Domain: Character. Range: Workplace. Asymmetric." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the occupation of the character. Domain: Character. Range: Occupation. Asymmetric" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the gender of the character. Domain: Character. Range: String." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates how amany relationships the character has had. Domain: Character. Range: Integer" .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the name of different classes. Domain: Character, Actor, Occupation, Workplace, Seasons. Range: String." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates how many workplaces the character has worked in. Domain: Character. Range: Integer" .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates how many different seasons the character appears in. Domain: Character. Range: String." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the accounting work." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the actors playing character on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the beet farm workplace." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the character of the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the coordinating director work." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the level of character importance on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the relationship situation of the characters on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the characters who have had some relationship on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the main roles play on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the occuaption of the characters." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the different branches office workplace." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the supporting roles on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the characters who have not had any relationship on the show." .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the workplaces on the show" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Amy_Ryan
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Amy_Ryan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Female" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Angela Martin" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Denman
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Denman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Male" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "David Wallace" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Male" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Dwight Schrute" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Amy_Ryan> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Female" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Holly Flax" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Female" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Jan Levinson" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Male" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Jim Halpert" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs> "https://dbpedia.org/page/John_Krasinski" .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Male" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Michael Scott" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott> <http://www.w3.org/2000/01/rdf-schema#comment> "Instancia del personaje principal Michael Scott" .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Female" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Pam Beesley" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs> "https://es.dbpedia.org/page/Rainn_Wilson" .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Denman> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender> "Male" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName> "Roy Anderson" .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs> "https://dbpedia.org/page/Steve_Carell" .
+# 
+# http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the administrative work." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the farmer work." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the corporate workplace." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the Human Resources." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the manager work." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the Nashua branch office workplace." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the sales work." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the Scranton branch office workplace." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the first season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the second season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the third season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the fourth season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the fifth season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the sixth season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the seventh season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the eighth season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the ninth season of the show." .
+# 
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse> <http://www.w3.org/2000/01/rdf-schema#comment> "Class corresponding to the warehouse work." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid1 <http://www.w3.org/2003/11/swrl#body> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2003/11/swrl#arguments> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#l> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#l> .
+_:genid7 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid7 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid9 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid1 <http://www.w3.org/2003/11/swrl#head> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid11 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid12 <http://www.w3.org/2003/11/swrl#body> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2003/11/swrl#arguments> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#l> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#lessThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#l> .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid18 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid20 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid12 <http://www.w3.org/2003/11/swrl#head> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid23 <http://www.w3.org/2003/11/swrl#body> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2003/11/swrl#arguments> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#s> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid29 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid31 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid23 <http://www.w3.org/2003/11/swrl#head> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid33 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid34 <http://www.w3.org/2003/11/swrl#body> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#arguments> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#s> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s> .
+_:genid40 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid40 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid42 .
+_:genid42 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid42 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid34 <http://www.w3.org/2003/11/swrl#head> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> .
+_:genid44 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
