@@ -1,0 +1,915 @@
+@prefix : <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#> .
+
+<http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4> rdf:type owl:Ontology ;
+                                                                               rdfs:comment """Grupo de Aula 1
+Autor 1 de la ontología: Pablo Berdayes Prieto
+Autor 2 de la ontología: Miguel Ángel Miravé Carreño""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#rdsf:sameAs
+:rdsf:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#appearsIn
+:appearsIn rdf:type owl:ObjectProperty ,
+                    owl:AsymmetricProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Seasons ;
+           rdfs:comment "Indicates on which seasons the character appears. Domain: Character. Range: Season. Asymmetric." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasRelationshipWith
+:hasRelationshipWith rdf:type owl:ObjectProperty ,
+                              owl:SymmetricProperty ;
+                     rdfs:domain :Character ;
+                     rdfs:range :Character ;
+                     rdfs:comment "Indicates with which other characters he or she has mantained a relationship in the show. Domain: Character. Range: Character. Symmetric." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#interpretedBy
+:interpretedBy rdf:type owl:ObjectProperty ,
+                        owl:AsymmetricProperty ;
+               rdfs:domain :Character ;
+               rdfs:range :Actor ;
+               rdfs:comment "Indicates the actor that plays the chracter. Domain: Character. Range: Actor. Asymmetric." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksAt
+:worksAt rdf:type owl:ObjectProperty ,
+                  owl:AsymmetricProperty ;
+         rdfs:domain :Character ;
+         rdfs:range :Workplace ;
+         rdfs:comment "Indicates the workplace of the character. Domain: Character. Range: Workplace. Asymmetric." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#worksIn
+:worksIn rdf:type owl:ObjectProperty ,
+                  owl:AsymmetricProperty ;
+         rdfs:domain :Character ;
+         rdfs:range :Occupation ;
+         rdfs:comment "Indicates the occupation of the character. Domain: Character. Range: Occupation. Asymmetric" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasGender
+:hasGender rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Character ;
+           rdfs:range xsd:string ;
+           rdfs:comment "Indicates the gender of the character. Domain: Character. Range: String." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasLovers
+:hasLovers rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Character ;
+           rdfs:range xsd:integer ;
+           rdfs:comment "Indicates how amany relationships the character has had. Domain: Character. Range: Integer" .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Character ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Indicates the name of different classes. Domain: Character, Actor, Occupation, Workplace, Seasons. Range: String." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#hasWorked
+:hasWorked rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Character ;
+           rdfs:range xsd:integer ;
+           rdfs:comment "Indicates how many workplaces the character has worked in. Domain: Character. Range: Integer" .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#numberSeasons
+:numberSeasons rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Character ;
+               rdfs:range xsd:integer ;
+               rdfs:comment "Indicates how many different seasons the character appears in. Domain: Character. Range: String." .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accounting
+:Accounting rdf:type owl:Class ;
+            rdfs:subClassOf :Occupation ;
+            owl:disjointWith :Sales ;
+            rdfs:comment "Class corresponding to the accounting work." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Actor
+:Actor rdf:type owl:Class ;
+       rdfs:comment "Class corresponding to the actors playing character on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative
+:Administrative rdf:type owl:Class ;
+                rdfs:subClassOf :Occupation .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer
+:Beet_Farmer rdf:type owl:Class ;
+             rdfs:subClassOf :Occupation .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_farms
+:Beet_farms rdf:type owl:Class ;
+            rdfs:subClassOf :Workplace ;
+            rdfs:comment "Class corresponding to the beet farm workplace." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Character
+:Character rdf:type owl:Class ;
+           rdfs:comment "Class corresponding to the character of the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Coordinating_Director
+:Coordinating_Director rdf:type owl:Class ;
+                       rdfs:subClassOf :Occupation ;
+                       rdfs:comment "Class corresponding to the coordinating director work." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate
+:Corporate rdf:type owl:Class ;
+           rdfs:subClassOf :Workplace .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources
+:Human_Resources rdf:type owl:Class ;
+                 rdfs:subClassOf :Occupation .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Level
+:Level rdf:type owl:Class ;
+       rdfs:subClassOf :Character ;
+       rdfs:comment "Class corresponding to the level of character importance on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Love_Status
+:Love_Status rdf:type owl:Class ;
+             rdfs:subClassOf :Character ;
+             rdfs:comment "Class corresponding to the relationship situation of the characters on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Lover
+:Lover rdf:type owl:Class ;
+       rdfs:subClassOf :Love_Status ;
+       rdfs:comment "Class corresponding to the characters who have had some relationship on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Main_Character
+:Main_Character rdf:type owl:Class ;
+                rdfs:subClassOf :Level ;
+                owl:disjointWith :Secondary_Character ;
+                rdfs:comment "Class corresponding to the main roles play on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager
+:Manager rdf:type owl:Class ;
+         rdfs:subClassOf :Occupation .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua
+:Nashua rdf:type owl:Class ;
+        rdfs:subClassOf :Office .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Occupation
+:Occupation rdf:type owl:Class ;
+            rdfs:comment "Class corresponding to the occuaption of the characters." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Office
+:Office rdf:type owl:Class ;
+        rdfs:subClassOf :Workplace ;
+        rdfs:comment "Class corresponding to the different branches office workplace." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales
+:Sales rdf:type owl:Class ;
+       rdfs:subClassOf :Occupation .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton
+:Scranton rdf:type owl:Class ;
+          rdfs:subClassOf :Office .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1
+:Season_1 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2
+:Season_2 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3
+:Season_3 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4
+:Season_4 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5
+:Season_5 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6
+:Season_6 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7
+:Season_7 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8
+:Season_8 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9
+:Season_9 rdf:type owl:Class ;
+          rdfs:subClassOf :Seasons .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Seasons
+:Seasons rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Secondary_Character
+:Secondary_Character rdf:type owl:Class ;
+                     rdfs:subClassOf :Level ;
+                     rdfs:comment "Class corresponding to the supporting roles on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Singleton
+:Singleton rdf:type owl:Class ;
+           rdfs:subClassOf :Love_Status ;
+           rdfs:comment "Class corresponding to the characters who have not had any relationship on the show." .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse
+:Warehouse rdf:type owl:Class ;
+           rdfs:subClassOf :Occupation .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Workplace
+:Workplace rdf:type owl:Class ;
+           rdfs:comment "Class corresponding to the workplaces on the show" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Accountant
+:Accountant rdf:type owl:NamedIndividual ,
+                     :Accounting .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Administrative
+:Administrative rdf:type owl:NamedIndividual ,
+                         :Administrative .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Amy_Ryan
+:Amy_Ryan rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Andy_Buckley
+:Andy_Buckley rdf:type owl:NamedIndividual ,
+                       :Actor .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Kinsley
+:Angela_Kinsley rdf:type owl:NamedIndividual ,
+                         :Actor .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Angela_Martin
+:Angela_Martin rdf:type owl:NamedIndividual ,
+                        :Accounting ,
+                        :Scranton ,
+                        :Season_1 ,
+                        :Season_2 ,
+                        :Season_3 ,
+                        :Season_4 ,
+                        :Season_5 ,
+                        :Season_6 ,
+                        :Season_7 ,
+                        :Season_8 ,
+                        :Season_9 ;
+               :appearsIn :Season_1 ,
+                          :Season_2 ,
+                          :Season_3 ,
+                          :Season_4 ,
+                          :Season_5 ,
+                          :Season_6 ,
+                          :Season_7 ,
+                          :Season_8 ,
+                          :Season_9 ;
+               :interpretedBy :Angela_Kinsley ;
+               :worksAt :Scranton ;
+               :worksIn :Accountant ;
+               :hasGender "Female" ;
+               :hasLovers 1 ;
+               :hasName "Angela Martin" ;
+               :hasWorked 1 ;
+               :numberSeasons 9 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farm
+:Beet_Farm rdf:type owl:NamedIndividual ,
+                    :Beet_farms .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Beet_Farmer
+:Beet_Farmer rdf:type owl:NamedIndividual ,
+                      :Beet_Farmer .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#CO
+:CO rdf:type owl:NamedIndividual ,
+             :Coordinating_Director .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Corporate
+:Corporate rdf:type owl:NamedIndividual ,
+                    :Corporate .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Denman
+:David_Denman rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#David_Wallace
+:David_Wallace rdf:type owl:NamedIndividual ,
+                        :Corporate ,
+                        :Season_2 ,
+                        :Season_3 ,
+                        :Season_4 ,
+                        :Season_5 ,
+                        :Season_6 ,
+                        :Season_8 ,
+                        :Season_9 ;
+               :appearsIn :Season_2 ,
+                          :Season_3 ,
+                          :Season_4 ,
+                          :Season_5 ,
+                          :Season_6 ,
+                          :Season_8 ,
+                          :Season_9 ;
+               :interpretedBy :Andy_Buckley ;
+               :worksAt :Corporate ;
+               :worksIn :CO ;
+               :hasGender "Male" ;
+               :hasLovers 0 ;
+               :hasName "David Wallace" ;
+               :hasWorked 1 ;
+               :numberSeasons 7 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Dwight_Schrute
+:Dwight_Schrute rdf:type owl:NamedIndividual ,
+                         :Beet_Farmer ,
+                         :Manager ,
+                         :Sales ,
+                         :Scranton ,
+                         :Season_1 ,
+                         :Season_2 ,
+                         :Season_3 ,
+                         :Season_4 ,
+                         :Season_5 ,
+                         :Season_6 ,
+                         :Season_7 ,
+                         :Season_8 ,
+                         :Season_9 ;
+                :appearsIn :Season_1 ,
+                           :Season_2 ,
+                           :Season_3 ,
+                           :Season_4 ,
+                           :Season_5 ,
+                           :Season_6 ,
+                           :Season_7 ,
+                           :Season_8 ,
+                           :Season_9 ;
+                :hasRelationshipWith :Angela_Martin ;
+                :interpretedBy :Rainn_Wilson ;
+                :worksAt :Beet_Farm ,
+                         :Scranton ;
+                :worksIn :Beet_Farmer ,
+                         :Manager ,
+                         :Sales ;
+                :hasGender "Male" ;
+                :hasLovers 2 ;
+                :hasName "Dwight Schrute" ;
+                :hasWorked 2 ;
+                :numberSeasons 9 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Holly_Flax
+:Holly_Flax rdf:type owl:NamedIndividual ,
+                     :Human_Resources ,
+                     :Nashua ,
+                     :Scranton ,
+                     :Season_4 ,
+                     :Season_5 ,
+                     :Season_7 ;
+            :appearsIn :Season_4 ,
+                       :Season_5 ,
+                       :Season_7 ;
+            :interpretedBy :Amy_Ryan ;
+            :worksAt :Nashua ;
+            :worksIn :Human_Resources ,
+                     :Scranton ;
+            :hasGender "Female" ;
+            :hasLovers 1 ;
+            :hasName "Holly Flax" ;
+            :hasWorked 2 ;
+            :numberSeasons 3 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Human_Resources
+:Human_Resources rdf:type owl:NamedIndividual ,
+                          :Human_Resources .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jan_Levinson
+:Jan_Levinson rdf:type owl:NamedIndividual ;
+              :appearsIn :Season_1 ,
+                         :Season_2 ,
+                         :Season_3 ,
+                         :Season_4 ,
+                         :Season_5 ,
+                         :Season_7 ,
+                         :Season_9 ;
+              :hasRelationshipWith :Michael_Scott ;
+              :interpretedBy :Melora_Hardin ;
+              :worksAt :Corporate ;
+              :worksIn :Manager ;
+              :hasGender "Female" ;
+              :hasLovers 1 ;
+              :hasName "Jan Levinson" ;
+              :hasWorked 1 ;
+              :numberSeasons 7 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jenna_Fischer
+:Jenna_Fischer rdf:type owl:NamedIndividual ,
+                        :Actor .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Jim_Halpert
+:Jim_Halpert rdf:type owl:NamedIndividual ,
+                      :Manager ,
+                      :Sales ,
+                      :Scranton ,
+                      :Season_1 ,
+                      :Season_2 ,
+                      :Season_3 ,
+                      :Season_4 ,
+                      :Season_5 ,
+                      :Season_6 ,
+                      :Season_7 ,
+                      :Season_8 ,
+                      :Season_9 ;
+             :appearsIn :Season_1 ,
+                        :Season_2 ,
+                        :Season_3 ,
+                        :Season_4 ,
+                        :Season_5 ,
+                        :Season_6 ,
+                        :Season_7 ,
+                        :Season_8 ,
+                        :Season_9 ;
+             :hasRelationshipWith :Pam_Beesley ;
+             :interpretedBy :John_Krasinski ;
+             :worksAt :Scranton ;
+             :worksIn :Manager ,
+                      :Sales ;
+             :hasGender "Male" ;
+             :hasLovers 2 ;
+             :hasName "Jim Halpert" ;
+             :hasWorked 2 ;
+             :numberSeasons 9 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#John_Krasinski
+:John_Krasinski rdf:type owl:NamedIndividual ,
+                         :Actor ;
+                :rdsf:sameAs "https://dbpedia.org/page/John_Krasinski" .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Manager
+:Manager rdf:type owl:NamedIndividual ,
+                  :Manager .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Melora_Hardin
+:Melora_Hardin rdf:type owl:NamedIndividual ,
+                        :Actor .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Michael_Scott
+:Michael_Scott rdf:type owl:NamedIndividual ,
+                        :Manager ,
+                        :Sales ,
+                        :Scranton ,
+                        :Season_1 ,
+                        :Season_2 ,
+                        :Season_3 ,
+                        :Season_4 ,
+                        :Season_5 ,
+                        :Season_6 ,
+                        :Season_7 ,
+                        :Season_9 ;
+               :appearsIn :Season_1 ,
+                          :Season_2 ,
+                          :Season_3 ,
+                          :Season_4 ,
+                          :Season_5 ,
+                          :Season_6 ,
+                          :Season_7 ,
+                          :Season_9 ;
+               :hasRelationshipWith :Holly_Flax ;
+               :interpretedBy :Steve_Carell ;
+               :worksAt :Scranton ;
+               :worksIn :Manager ,
+                        :Sales ;
+               :hasGender "Male" ;
+               :hasLovers 2 ;
+               :hasName "Michael Scott" ;
+               :hasWorked 2 ;
+               :numberSeasons 8 ;
+               rdfs:comment "Instancia del personaje principal Michael Scott" .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Nashua
+:Nashua rdf:type owl:NamedIndividual ,
+                 :Nashua .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Pam_Beesley
+:Pam_Beesley rdf:type owl:NamedIndividual ,
+                      :Scranton ,
+                      :Season_1 ,
+                      :Season_2 ,
+                      :Season_3 ,
+                      :Season_4 ,
+                      :Season_5 ,
+                      :Season_6 ,
+                      :Season_7 ,
+                      :Season_8 ,
+                      :Season_9 ;
+             :appearsIn :Season_1 ,
+                        :Season_2 ,
+                        :Season_3 ,
+                        :Season_4 ,
+                        :Season_5 ,
+                        :Season_6 ,
+                        :Season_7 ,
+                        :Season_8 ,
+                        :Season_9 ;
+             :hasRelationshipWith :Roy_Anderson ;
+             :interpretedBy :Jenna_Fischer ;
+             :worksAt :Scranton ;
+             :worksIn :Administrative ,
+                      :Sales ;
+             :hasGender "Female" ;
+             :hasLovers 2 ;
+             :hasName "Pam Beesley" ;
+             :hasWorked 1 ;
+             :numberSeasons 9 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Rainn_Wilson
+:Rainn_Wilson rdf:type owl:NamedIndividual ,
+                       :Actor ;
+              :rdsf:sameAs "https://es.dbpedia.org/page/Rainn_Wilson" .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Roy_Anderson
+:Roy_Anderson rdf:type owl:NamedIndividual ,
+                       :Season_1 ,
+                       :Season_2 ,
+                       :Season_3 ,
+                       :Season_9 ,
+                       :Warehouse ;
+              :appearsIn :Season_1 ,
+                         :Season_2 ,
+                         :Season_3 ,
+                         :Season_9 ;
+              :hasRelationshipWith :Pam_Beesley ;
+              :interpretedBy :David_Denman ;
+              :worksAt :Scranton ;
+              :worksIn :Warehouse ;
+              :hasGender "Male" ;
+              :hasLovers 1 ;
+              :hasName "Roy Anderson" ;
+              :hasWorked 1 ;
+              :numberSeasons 4 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Sales
+:Sales rdf:type owl:NamedIndividual ,
+                :Sales .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Scranton
+:Scranton rdf:type owl:NamedIndividual ,
+                   :Scranton .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_1
+:Season_1 rdf:type owl:NamedIndividual ,
+                   :Season_1 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_2
+:Season_2 rdf:type owl:NamedIndividual ,
+                   :Season_2 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_3
+:Season_3 rdf:type owl:NamedIndividual ,
+                   :Season_3 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_4
+:Season_4 rdf:type owl:NamedIndividual ,
+                   :Season_4 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_5
+:Season_5 rdf:type owl:NamedIndividual ,
+                   :Season_5 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_6
+:Season_6 rdf:type owl:NamedIndividual ,
+                   :Season_6 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_7
+:Season_7 rdf:type owl:NamedIndividual ,
+                   :Season_7 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_8
+:Season_8 rdf:type owl:NamedIndividual ,
+                   :Season_8 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Season_9
+:Season_9 rdf:type owl:NamedIndividual ,
+                   :Season_9 .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Steve_Carell
+:Steve_Carell rdf:type owl:NamedIndividual ,
+                       :Actor ;
+              :rdsf:sameAs "https://dbpedia.org/page/Steve_Carell" .
+
+
+###  http://www.semanticweb.org/pablo-acer/ontologies/2022/3/untitled-ontology-4#Warehouse
+:Warehouse rdf:type owl:NamedIndividual ,
+                    :Warehouse .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Administrative rdfs:comment "Class corresponding to the administrative work." .
+
+
+:Beet_Farmer rdfs:comment "Class corresponding to the farmer work." .
+
+
+:Corporate rdfs:comment "Class corresponding to the corporate workplace." .
+
+
+:Human_Resources rdfs:comment "Class corresponding to the Human Resources." .
+
+
+:Manager rdfs:comment "Class corresponding to the manager work." .
+
+
+:Nashua rdfs:comment "Class corresponding to the Nashua branch office workplace." .
+
+
+:Sales rdfs:comment "Class corresponding to the sales work." .
+
+
+:Scranton rdfs:comment "Class corresponding to the Scranton branch office workplace." .
+
+
+:Season_1 rdfs:comment "Class corresponding to the first season of the show." .
+
+
+:Season_2 rdfs:comment "Class corresponding to the second season of the show." .
+
+
+:Season_3 rdfs:comment "Class corresponding to the third season of the show." .
+
+
+:Season_4 rdfs:comment "Class corresponding to the fourth season of the show." .
+
+
+:Season_5 rdfs:comment "Class corresponding to the fifth season of the show." .
+
+
+:Season_6 rdfs:comment "Class corresponding to the sixth season of the show." .
+
+
+:Season_7 rdfs:comment "Class corresponding to the seventh season of the show." .
+
+
+:Season_8 rdfs:comment "Class corresponding to the eighth season of the show." .
+
+
+:Season_9 rdfs:comment "Class corresponding to the ninth season of the show." .
+
+
+:Warehouse rdfs:comment "Class corresponding to the warehouse work." .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#c> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#l> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#s> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasLovers ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#l>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#l> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 0 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Lover ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasLovers ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#l>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#l> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 0 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Singleton ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :numberSeasons ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#s> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 5 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Main_Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :numberSeasons ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#s>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#s> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 5 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Secondary_Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
